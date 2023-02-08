@@ -10,9 +10,6 @@ from flask_jwt_extended import jwt_required
 
 api = Blueprint('api', __name__)
 
-
-api = Blueprint('api', __name__)
-
 #USER
 
 @api.route('/users', methods=['GET'])
